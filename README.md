@@ -245,3 +245,7 @@ The three documents carry the full lists. `gauntlet/DATASHEET.md` section 5 cove
 This program follows the binding feedback experiment, which asked the same question on simpler tasks and found that moving completion authority from the model to a checker lifts a weak model by 9.2 points and leaves a strong one unchanged. That work identified the false claim as the mechanism. GAUNTLET was built because testing the mechanism properly needed tasks where the withheld information is real, catalogued and enforced, instead of merely stripped. `gauntlet/REUSE.md` records every item carried across, per item, with blob hashes.
 
 The corpus generators, the harness and the analysis code were built with AI assistance under execution verified acceptance gates. Every phase advanced only on raw command output audited by the author, every rejection is recorded by machine instead of hand repaired, and all deviations live in the three logs. The research questions, the registered predictions and the interpretations are the author's.
+
+## License
+
+MIT, see [LICENSE](LICENSE). The same terms cover the code, the corpora and the write ups in all three parts.
