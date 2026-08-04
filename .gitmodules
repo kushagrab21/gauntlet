@@ -1,0 +1,9 @@
+[submodule "gauntlet"]
+	path = gauntlet
+	url = https://github.com/kushagrab21/gauntlet.git
+[submodule "dnc"]
+	path = dnc
+	url = https://github.com/kushagrab21/dnc.git
+[submodule "traverse"]
+	path = traverse
+	url = https://github.com/kushagrab21/traverse.git
