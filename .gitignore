@@ -1,0 +1,17 @@
+# Credentials. The key lives outside every working tree and is read at the
+# moment of the call. This file is a second line, never the first one.
+api_key/
+api*/
+*.key
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Loose working output from the build, kept locally and not part of the release
+_gate_tasks.out
+G6_dump.txt
+EXPERIMENT_PLAN.md
