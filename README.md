@@ -11,7 +11,7 @@ Everything below is a map. Each state of the program has a place on disk, and ea
 | directory | what it is | size | frozen as |
 |---|---|---|---|
 | `gauntlet/` | the corpus. Broken Python functions whose correct behaviour depends on a convention the solver is never told, arranged in a ladder of seven levels | 452 tasks, 2818 files | `gauntlet-v1.0`, freeze hash `2cbe3bb2` |
-| `traverse/` | the experiment. Three models, two arms, the same 68 development tasks in the same frozen order, registered before the first episode | 407 episodes, 1106 calls, $16.74 | no tag, pinned at `REGISTRY.md` commit `e62eb0f` |
+| `traverse/` | the experiment. Three models, two arms, the same 68 development tasks in the same frozen order, registered before the first episode | 407 episodes, 1106 calls, $16.74 | `traverse-phase-a`, preregistration frozen at commit `e62eb0f` |
 | `dnc/` | the second corpus, built after the experiment to isolate the failure it found. Mechanical difficulty is pinned flat, so the only variation left is what the task withholds | 159 tasks, 1224 files | `dnc-v0.2`, freeze hash `fd828da6` |
 
 Total live spend across the whole program is $22.78 over 610 episodes.
