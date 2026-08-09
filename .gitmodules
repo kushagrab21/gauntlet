@@ -7,3 +7,6 @@
 [submodule "traverse"]
 	path = traverse
 	url = https://github.com/kushagrab21/traverse.git
+[submodule "declare"]
+	path = declare
+	url = https://github.com/kushagrab21/declare.git
