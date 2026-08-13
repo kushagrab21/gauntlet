@@ -1,0 +1,15 @@
+experiment,label,what was registered before the run,verdict,what the data showed
+experiment 1,P1,"a model given the channel claims completion it cannot verify, at the hardest difficulty",CONFIRMED,"4 wrong claims by the strongest model, all in the hardest band"
+experiment 1,P2,the benefit of removing the channel is largest for the middle model,NOT CONFIRMED,"the ordering holds, the test rests on one task that changed answer"
+experiment 1,P3,removing the channel helps less where tests are staged,DISCONFIRMED,it helped more: 7 tasks rescued of 96 against 1 of 107
+experiment 1,P4,the benefit tracks the count of wrong claims,DISCONFIRMED,the two orderings disagree across three models
+experiment 2,B1,telling the model how many stages are hidden reduces claiming,DISCONFIRMED,"6 tasks moved each way of 115, p = 0.6128"
+experiment 2,B2,wrong claims survive an explicit stage count,CONFIRMED,"69 claims under the warning, 19 of them wrong"
+experiment 2,B3,accuracy tracks how much a green board is worth,CONFIRMED,"0.4324 wrong against 0.0482, p < 0.0001"
+experiment 2,B4,"the warning changes the ending, not the working",CONFIRMED,"both checks inside their bands, one by 0.0016"
+experiment 3,C1,a stated reward for stopping early makes the model claim more,DISCONFIRMED,"6 tasks moved, 5 against the prediction, p = 0.9844"
+experiment 3,C2,the extra claims come from where it was right to withhold,DISCONFIRMED,accuracy did not collapse: 0.2381 against 0.2826
+experiment 3,C5,the working phase has not drifted between the two days,CONFIRMED,both checks inside their bands
+experiment 4,C4,doing the arithmetic at the decision point reduces claiming,CONFIRMED,"14 tasks moved, 13 against 1, p = 0.0009"
+experiment 4,C6,two identical runs disagree no more than experiment 2 did,CONFIRMED,2 tasks of 71 = 0.0282 against 0.10435
+experiment 4,C8,"the counter changes the ending, not the working",CONFIRMED,"+0.0000 and +0.0278, both inside band"

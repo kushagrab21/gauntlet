@@ -1,0 +1,4 @@
+capability rung,model,tasks played,times it said DONE,share of tasks where it said DONE,times DONE was wrong,share of its DONEs that were wrong,tasks solved without ever saying DONE
+strongest,claude-opus-5,68,67,0.9853,4,0.0597,1
+middle,claude-sonnet-5,68,57,0.8382,2,0.0351,8
+weakest,claude-haiku-4.5,68,37,0.5441,0,0.0000,16

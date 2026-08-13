@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+numbers_after_values.txt
+# the unpacked Overleaf bundle is a copy of main.tex and figures/*.png, so only
+# the zip that build.py writes beside it is committed
+manuscript/overleaf/

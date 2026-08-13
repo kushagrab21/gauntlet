@@ -1,0 +1,7 @@
+what the model was told it could do,kind of task,visits to the decision point,"of those, it said DONE",share where it said DONE
+may say DONE (control) (CTRL),hides nothing,58,50,0.8621
+may say DONE (control) (CTRL),hides a convention,62,11,0.1774
+told how many stages are hidden (WARN),hides nothing,59,47,0.7966
+told how many stages are hidden (WARN),hides a convention,59,12,0.2034
+both sets of rules pooled,hides nothing,117,97,0.8291
+both sets of rules pooled,hides a convention,121,23,0.1901
