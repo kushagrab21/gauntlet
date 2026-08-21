@@ -15,3 +15,8 @@ __pycache__/
 _gate_tasks.out
 G6_dump.txt
 EXPERIMENT_PLAN.md
+
+# Private working material, never published
+outreach/
+_to_delete/
+RESEARCHER_SYSTEM_PROMPT.md
